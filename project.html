@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabir's Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+
+    <style>
+        /* CSS Reset */
+        body,
+        html {
+            font-family: 'Cinzel', serif;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(https://images.wallpaperscraft.com/image/single/dumbbells_fitness_gym_113149_1600x900.jpg);
+            color: aliceblue;
+            }
+
+
+        .left {
+            position: absolute;
+            top: 22px;
+            left: 22px;
+            display: inline-block;
+        }
+
+        .left img {
+            width: 136px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 12px;
+            font-size: 26px;
+        }
+
+        .mid {
+
+            width: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 35px;
+            right: 22px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            font-family: 'Cinzel', serif;
+            padding: 4px 6px;
+            border-radius: 10px;
+            border: 1px solid rgb(168, 167, 167);
+            background-color: black;
+            color: aliceblue;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .btn:hover {
+            opacity: 1;
+            background-color: rgb(228, 84, 17);
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 0px 23px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: darkgrey;
+
+        }
+
+        .container {
+
+            margin: 103px 180px;
+            border-radius: 10px;
+            padding: 41px 9px;
+            width: 33%;
+
+        }
+
+        .container h1 {
+            text-align: center;
+
+        }
+
+        .container button {
+            display: block;
+            margin: 20px auto;
+            width: 65%;
+        }
+
+        .forms-group input {
+            width: 300px;
+            border-radius: 3px;
+            border: 1px solid black;
+            padding: 2px;
+            font-weight: bold;
+            display: block;
+            font-family: 'Cinzel', serif;
+            margin: 11px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <background-image class="bg">
+
+        </background-imge>
+        <header class="header">
+            <div class="left">
+                <img src="img/Red-bull-logo-template-on-transparent-background-PNG.png" alt="">
+                <div>
+                    Kabir's Gym
+                </div>
+            </div>
+
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Coures</a></li>
+                    <li><a href="#">Fitness calculator</a></li>
+                    <li><a href="#">Our branches</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <button class="btn" style="vertical-align: middle;">Order now</button>
+                <button class="btn" style="vertical-align: middle;">SUBSCRIBE</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>join the best Gym today</h1>
+            <form action="noaction.php">
+                <div class="forms-group">
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <form action="noaction.php">
+                    <div class="forms-group">
+                        <input type="text" placeholder="Enter your age">
+                    </div>
+                    <form action="noaction.php">
+                        <div class="forms-group">
+                            <input type="text" placeholder="Enter your Gender">
+                        </div>
+                        <form action="noaction.php">
+                            <div class="forms-group">
+                                <input type="text" placeholder="Enter your Contact">
+                            </div>
+                            <form action="noaction.php">
+                                <div class="forms-group">
+                                    <input type="text" placeholder="Enter your Email">
+                                </div>
+                                <button class="btn">Submit now</button>
+                            </form>
+        </div>
+
+</body>
+
+</html>
